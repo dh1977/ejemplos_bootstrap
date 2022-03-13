@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+   <h2>Spinner</h2>
+   <p>Para crear un spinner/loader, utilice la clase "<code>.spinner-border</code>":</p>
+
+   <div class="spinner-border"></div>
+   <br><hr>
+
+   <h2>Spinners de color</h2>
+   <p>Use cualquiera <strong>de las utilidades de color de texto</strong> para agregar color al spinner:</p>
+
+   <div class="spinner-border text-muted"></div>
+   <div class="spinner-border text-primary">
+      <span class="sr-only">Cargando...</span>      
+   </div>
+   <div class="spinner-border text-success"></div>
+   <div class="spinner-border text-info"></div>
+   <div class="spinner-border text-warning"></div>
+   <div class="spinner-border text-danger"></div>
+   <div class="spinner-border text-secondary"></div>
+   <div class="spinner-border text-dark"></div>
+   <div class="spinner-border text-light"></div>  
+   <p>O bien, un color espec&iacute;fico:</p>
+   <div class="spinner-border" style="color: brown;">texto que gira</div>
+   <br><hr>
+
+   <h2>Spinners crecientes</h2>
+   <p>Use la clase <code>.spinner-grow</code> si desea que el spinner/loader crezca en lugar de girar</p>
+   <div class="spinner-grow text-muted"></div>
+   <div class="spinner-grow text-primary"></div>
+   <br><hr>
+
+   <h2>Tama&ntilde;o del Spinner</h2>
+   <p>Use <code>.spinner-border-sm</code> o <code>.spinner-grow-sm</code> para crear un spinner m&aacute;s peque&ntilde;o:</p>
+
+   <div class="spinner-border spinner-border-sm"></div>
+   <div class="spinner-grow spinner-grow-sm"></div>   
+   <br><hr>
+
+   <h2>Botones Spinner</h2>
+   <p>A&ntilde;adir spinners a botones:</p>
+                                         
+   <button class="btn btn-primary">
+     <span class="spinner-border spinner-border-sm"></span>
+   </button>
+ 
+   <button class="btn btn-primary">
+     <span class="spinner-border spinner-border-sm"></span>
+     Cargando...
+   </button>
+   
+   <button class="btn btn-primary" disabled>
+     <span class="spinner-border spinner-border-sm"></span>
+     Cargando...
+   </button>
+   
+   <button class="btn btn-primary" disabled>
+     <span class="spinner-grow spinner-grow-sm"></span>
+     Cargando...
+   </button>
+   <br><hr>
+
+</div>
+
+</body>
+</html>
